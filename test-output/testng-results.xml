@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-18T14:18:15Z" name="Suite" finished-at="2023-06-18T14:19:08Z" duration-ms="53008">
+    <groups>
+    </groups>
+    <test started-at="2023-06-18T14:18:15Z" name="Run on CHROME" finished-at="2023-06-18T14:19:08Z" duration-ms="53008">
+      <class name="com.bankguru.Common_Create_New_Customer">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.bankguru.Common_Create_New_Customer@e3994ef]" started-at="2023-06-18T14:18:15Z" name="beforeClass" finished-at="2023-06-18T14:18:38Z" duration-ms="23187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.guru99.com/V4/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+      </class> <!-- com.bankguru.Common_Create_New_Customer -->
+      <class name="com.bankguru.DeleteCustomer_01_CustomerID">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.bankguru.DeleteCustomer_01_CustomerID@680d4a6a]" started-at="2023-06-18T14:18:38Z" name="beforeClass" finished-at="2023-06-18T14:18:47Z" duration-ms="8988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.guru99.com/V4/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="DeleteCustomer_01_CustomerID_Cannot_Empty()[pri:0, instance:com.bankguru.DeleteCustomer_01_CustomerID@680d4a6a]" started-at="2023-06-18T14:18:47Z" name="DeleteCustomer_01_CustomerID_Cannot_Empty" finished-at="2023-06-18T14:18:53Z" duration-ms="5694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomer_01_CustomerID_Cannot_Empty -->
+        <test-method signature="DeleteCustomer_02_CustomerID_Must_Be_Numberic()[pri:0, instance:com.bankguru.DeleteCustomer_01_CustomerID@680d4a6a]" started-at="2023-06-18T14:18:53Z" name="DeleteCustomer_02_CustomerID_Must_Be_Numberic" finished-at="2023-06-18T14:18:56Z" duration-ms="2992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomer_02_CustomerID_Must_Be_Numberic -->
+        <test-method signature="DeleteCustomer_03_CustomerID_Cannot_Have_Special_Character()[pri:0, instance:com.bankguru.DeleteCustomer_01_CustomerID@680d4a6a]" started-at="2023-06-18T14:18:56Z" name="DeleteCustomer_03_CustomerID_Cannot_Have_Special_Character" finished-at="2023-06-18T14:19:00Z" duration-ms="3715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomer_03_CustomerID_Cannot_Have_Special_Character -->
+        <test-method signature="DeleteCustomer_04_CustomerID_Cannot_Have_Blank_Space()[pri:0, instance:com.bankguru.DeleteCustomer_01_CustomerID@680d4a6a]" started-at="2023-06-18T14:19:00Z" name="DeleteCustomer_04_CustomerID_Cannot_Have_Blank_Space" finished-at="2023-06-18T14:19:04Z" duration-ms="3662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomer_04_CustomerID_Cannot_Have_Blank_Space -->
+        <test-method signature="DeleteCustomer_05_CustomerID_First_Character_Cannot_Be_Space()[pri:0, instance:com.bankguru.DeleteCustomer_01_CustomerID@680d4a6a]" started-at="2023-06-18T14:19:04Z" name="DeleteCustomer_05_CustomerID_First_Character_Cannot_Be_Space" finished-at="2023-06-18T14:19:07Z" duration-ms="3836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomer_05_CustomerID_First_Character_Cannot_Be_Space -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.bankguru.DeleteCustomer_01_CustomerID@680d4a6a]" started-at="2023-06-18T14:19:07Z" name="afterClass" finished-at="2023-06-18T14:19:08Z" duration-ms="782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.bankguru.DeleteCustomer_01_CustomerID -->
+    </test> <!-- Run on CHROME -->
+  </suite> <!-- Suite -->
+</testng-results>
