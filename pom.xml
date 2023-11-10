@@ -1,11 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.automation.framework</groupId>
-  <artifactId>com.automation.framework</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>hybrid-framework-maven</name>
-  
-   <!-- Khai báo biến - Global Variable -->
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.automation.framework</groupId>
+    <artifactId>com.automation.framework</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>maven-hybrid-framework-20</name>
+
+
+    <!-- Khai báo biến - Global Variable -->
     <properties>
         <!-- Encoding for Build/ Console -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,7 +22,7 @@
         <webdriver.version>3.141.59</webdriver.version>
         <testng.version>6.14.3</testng.version>
         <jackson.version>2.10.0</jackson.version>
-        <webdrivermanager.version>5.0.2</webdrivermanager.version>
+        <webdrivermanager.version>5.4.1</webdrivermanager.version>
         <aspectj.version>1.9.8</aspectj.version>
         <allure.version>2.18.1</allure.version>
         <extent.version>5.0.8</extent.version>
@@ -143,7 +144,7 @@
             <version>${aspectj.version}</version>
              <scope>runtime</scope>
         </dependency>
-		<dependency>
+        <dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
 			<version>4.1.2</version>
